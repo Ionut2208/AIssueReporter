@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Frontend.Views
 {
-    internal class CameraPage
+    public partial class CameraPage
     {
     }
 }

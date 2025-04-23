@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Frontend.Views
 {
-    internal class ResultsPage
+    public partial class ResultsPage
     {
     }
 }
