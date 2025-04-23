@@ -1,0 +1,22 @@
+# Build results
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Rider/VSCode stuff
+.idea/
+.vscode/
+
+# MAUI/Android specific
+**/platforms/android/.gradle/
+**/platforms/android/.idea/
+**/platforms/android/local.properties
