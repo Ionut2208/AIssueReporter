@@ -20,3 +20,7 @@ Thumbs.db
 **/platforms/android/.gradle/
 **/platforms/android/.idea/
 **/platforms/android/local.properties
+
+!yolov5
+/runs/detect/*
+!/runs/detect/.gitkeep
