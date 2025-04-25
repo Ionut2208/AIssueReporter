@@ -1,7 +1,10 @@
-﻿namespace Backend.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Backend.Models
 {
     public class PredictionRequest
     {
-        public String ImageBase64 { get; set; }
+        [Required]
+        public IFormFile Image { get; set; }
     }
 }

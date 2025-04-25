@@ -1,7 +1,16 @@
-﻿namespace Backend.Models
+﻿using System.Text.Json.Serialization;
+
+namespace Backend.Models
 {
-    public class PredictionResult
-    {
-        public float[] RawOutput { get; set; }
+        public class PredictionResult
+        {
+        [JsonPropertyName("status")]
+        public string Status { get; set; }
+
+        [JsonPropertyName("output_image")]
+        public string OutputImage { get; set; }
+
+        [JsonPropertyName("details")]
+        public string Details { get; set; }
     }
 }

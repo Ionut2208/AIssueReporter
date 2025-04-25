@@ -16,9 +16,15 @@ namespace Backend.Controllers
         }
 
         [HttpPost("predict")]
-        public async Task<IActionResult> Predict([FromBody] PredictionRequest request)
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Predict([FromForm] PredictionRequest request)
         {
-            var result = await _predictionService.PredictAsync(request.ImageBase64);
+            if (request.Image == null || request.Image.Length == 0)
+            {
+                return BadRequest("No image uploaded.");
+            }
+
+            var result = await _predictionService.PredictUsingPythonAsync(request.Image);
             return Ok(result);
         }
     }

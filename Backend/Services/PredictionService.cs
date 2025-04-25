@@ -5,6 +5,8 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using Backend.Models;
+using Microsoft.AspNetCore.Mvc.TagHelpers;
+using System.Text.Json;
 
 namespace Backend.Services
 {
@@ -17,39 +19,24 @@ namespace Backend.Services
             _session = new InferenceSession("ML/best.onnx");
         }
 
-        public async Task<PredictionResult> PredictAsync(string base64Image)
+
+        public async Task<PredictionResult> PredictUsingPythonAsync(IFormFile image)
         {
-            byte[] imageBytes = Convert.FromBase64String(base64Image);
-            using var ms = new MemoryStream(imageBytes);
-            using var bitmap = new Bitmap(ms);
+            using var content = new MultipartFormDataContent();
+            content.Add(new StreamContent(image.OpenReadStream()), "file", image.FileName);
 
-            using var resized = new Bitmap(bitmap, new Size(640, 640));
+            using var client = new HttpClient();
+            var response = await client.PostAsync("http://127.0.0.1:8000/detect/", content);
+            response.EnsureSuccessStatusCode();
 
-            var inputTensor = new DenseTensor<float>(new[] { 1, 3, 640, 640 });
-
-            for(int y = 0; y < 640; y++)
+            var json = await response.Content.ReadAsStringAsync();
+            var result = JsonSerializer.Deserialize<PredictionResult>(json, new JsonSerializerOptions
             {
-                for(int x = 0; x < 640; x++)
-                {
-                    var pixel = resized.GetPixel(x, y);
-                    inputTensor[0, 0, y, x] = pixel.R / 255f;
-                    inputTensor[0, 1, y, x] = pixel.G / 255f;
-                    inputTensor[0, 2, y, x] = pixel.B / 255f;
-                }
-            }
+                PropertyNameCaseInsensitive = true
+            });
 
-            var inputs = new List<NamedOnnxValue>
-            {
-                NamedOnnxValue.CreateFromTensor("images", inputTensor)
-            };
-
-            using var results = _session.Run(inputs);
-            var output = results.First().AsEnumerable<float>().ToArray();
-            return new PredictionResult
-            {
-                RawOutput = output.Take(5).ToArray()
-            };
-
+            return result;
         }
+
     }
 }
