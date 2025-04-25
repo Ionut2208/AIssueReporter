@@ -21,6 +21,6 @@ Thumbs.db
 **/platforms/android/.idea/
 **/platforms/android/local.properties
 
-!yolov5
+!/yolov5/
 /runs/detect/*
 !/runs/detect/.gitkeep
