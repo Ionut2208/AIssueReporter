@@ -12,5 +12,10 @@ namespace Frontend.Views
         {
             InitializeComponent();
         }
+
+        private async void OnSignUpClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new WelcomePage());
+        }
     }
 }

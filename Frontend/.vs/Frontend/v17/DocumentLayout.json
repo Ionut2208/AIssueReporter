@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\welcomepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\welcomepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\signuppage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\signuppage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\frontend\\views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{63247A27-BFED-4876-9664-A52DD52C2713}|Frontend.csproj|solutionrelative:views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,33 +70,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SignUpPage.xaml",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\SignUpPage.xaml",
+              "RelativeToolTip": "Views\\SignUpPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T11:38:06.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUpPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\SignUpPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SignUpPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\SignUpPage.xaml.cs",
+              "RelativeToolTip": "Views\\SignUpPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:38:04.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T11:29:19.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T11:27:00.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:26:40.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:27:03.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:35:03.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T11:35:05.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "Views\\WelcomePage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T05:19:02.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "WelcomePage.xaml",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\WelcomePage.xaml",
               "RelativeDocumentMoniker": "Views\\WelcomePage.xaml",
               "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\WelcomePage.xaml",
               "RelativeToolTip": "Views\\WelcomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-05T05:40:49.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml",
-              "RelativeToolTip": "Views\\LoginPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T05:40:45.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "SignUpPage.xaml",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\SignUpPage.xaml",
               "RelativeDocumentMoniker": "Views\\SignUpPage.xaml",
@@ -77,15 +213,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WelcomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\WelcomePage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\WelcomePage.xaml.cs",
-              "RelativeToolTip": "Views\\WelcomePage.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T05:19:02.37Z",
+              "DocumentIndex": 11,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Frontend\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T05:40:45.341Z",
               "EditorCaption": ""
             }
           ]

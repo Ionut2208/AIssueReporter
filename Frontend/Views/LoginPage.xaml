@@ -7,9 +7,14 @@
     <VerticalStackLayout Padding="30" Spacing="20">
         <Label Text="Login" FontSize="24" HorizontalOptions="Center" />
 
-        <Entry Placeholder="Email" />
-        <Entry Placeholder="Password" IsPassword="True" />
+		<Entry x:Name="Email" Placeholder="Email" />
+		<Entry x:Name="Password" Placeholder="Password" IsPassword="True" />
 
-        <Button Text="Login" />
+		<Button Text="Login"
+                FontSize="20"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                CornerRadius="10"
+                Clicked="OnLoginClicked"/>
     </VerticalStackLayout>
 </ContentPage>

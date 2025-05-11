@@ -6,6 +6,8 @@
         {
             InitializeComponent();
 
+            DependencyService.Register<HttpClient>();
+
             MainPage = new NavigationPage(new Views.WelcomePage());
         }
     }

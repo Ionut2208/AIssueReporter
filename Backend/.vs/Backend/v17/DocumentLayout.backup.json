@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\predictionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\predictionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\issuerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\issuerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\issues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\issues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\predictionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\predictionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\predictionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\predictionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\predictionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\predictionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,8 +73,103 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:57:43.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IssueRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\IssueRequest.cs",
+              "RelativeDocumentMoniker": "Models\\IssueRequest.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\IssueRequest.cs",
+              "RelativeToolTip": "Models\\IssueRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:20:34.928Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SignUpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\SignUpRequest.cs",
+              "RelativeDocumentMoniker": "Models\\SignUpRequest.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\SignUpRequest.cs",
+              "RelativeToolTip": "Models\\SignUpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:57:05.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:45:03.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:56:34.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:16:26.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Issues.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\Issues.cs",
+              "RelativeDocumentMoniker": "Models\\Issues.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\Issues.cs",
+              "RelativeToolTip": "Models\\Issues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:18:54.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PredictionRequest.cs",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\PredictionRequest.cs",
               "RelativeDocumentMoniker": "Models\\PredictionRequest.cs",
@@ -54,60 +177,25 @@
               "RelativeToolTip": "Models\\PredictionRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:03:46.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PredictionResult.cs",
-              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\PredictionResult.cs",
-              "RelativeDocumentMoniker": "Models\\PredictionResult.cs",
-              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\PredictionResult.cs",
-              "RelativeToolTip": "Models\\PredictionResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:45:58.295Z",
+              "WhenOpened": "2025-04-25T09:03:46.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PredictionService.cs",
-              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Services\\PredictionService.cs",
-              "RelativeDocumentMoniker": "Services\\PredictionService.cs",
-              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Services\\PredictionService.cs",
-              "RelativeToolTip": "Services\\PredictionService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:46:27.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "Controllers\\ImageController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:45:03.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:40:58.204Z"
+              "WhenOpened": "2025-04-22T19:40:58.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Backend.csproj",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend.csproj",
@@ -115,19 +203,60 @@
               "RelativeToolTip": "Backend.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-22T19:45:09.461Z"
+              "WhenOpened": "2025-04-22T19:45:09.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:21:07.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-22T19:43:30.683Z"
+              "WhenOpened": "2025-05-11T10:45:53.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PredictionResult.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\PredictionResult.cs",
+              "RelativeDocumentMoniker": "Models\\PredictionResult.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\PredictionResult.cs",
+              "RelativeToolTip": "Models\\PredictionResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:45:58.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PredictionService.cs",
+              "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Services\\PredictionService.cs",
+              "RelativeDocumentMoniker": "Services\\PredictionService.cs",
+              "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Services\\PredictionService.cs",
+              "RelativeToolTip": "Services\\PredictionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:46:27.67Z",
+              "EditorCaption": ""
             }
           ]
         }
