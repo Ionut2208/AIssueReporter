@@ -2,27 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Frontend.Views.WelcomePage"
-             BackgroundColor="White">
+             BackgroundColor="#512BD4">
+	<!-- Purple background -->
 
-    <VerticalStackLayout Spacing="30" Padding="40" VerticalOptions="Center">
-        <Label Text="AIssueReporter"
-               FontSize="32"
-               FontAttributes="Bold"
-               HorizontalOptions="Center"
-               TextColor="Black"/>
+	<Grid VerticalOptions="Center">
+		<VerticalStackLayout Spacing="40" Padding="40" VerticalOptions="Center">
+			<!-- App Title and Welcome Message -->
+			<VerticalStackLayout Spacing="10">
+				<Label Text="Welcome to"
+                       FontSize="24"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       Opacity="0.8"/>
 
-        <Button Text="Login"
-                FontSize="20"
-                BackgroundColor="#007AFF"
-                TextColor="White"
-                CornerRadius="10"
-                Clicked="OnLoginClicked"/>
+				<Label Text="AIssueReporter"
+                       FontSize="42"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+			</VerticalStackLayout>
 
-        <Button Text="Sign Up"
-                FontSize="20"
-                BackgroundColor="#34C759"
-                TextColor="White"
-                CornerRadius="10"
-                Clicked="OnSignUpClicked"/>
-    </VerticalStackLayout>
+			<!-- Action Buttons -->
+			<VerticalStackLayout Spacing="20">
+				<Button Text="Login"
+                        BackgroundColor="White"
+                        TextColor="#512BD4"
+				FontSize="18"
+				FontAttributes="Bold"
+				CornerRadius="10"
+				HeightRequest="50"
+				Clicked="OnLoginClicked"/>
+
+				<Button Text="Sign Up"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        BorderColor="White"
+                        BorderWidth="2"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        Clicked="OnSignUpClicked"/>
+			</VerticalStackLayout>
+		</VerticalStackLayout>
+	</Grid>
 </ContentPage>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend.Views.HomePage"
+             Title="Home"
+             BackgroundColor="#512BD4">
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Color x:Key="PrimaryColor">#FFFFFF</Color>
+			<Color x:Key="ButtonTextColor">#512BD4</Color>
+			<Color x:Key="LogoutButtonColor">#FF3B30</Color>
+			<!-- Red color for logout -->
+
+			<Style x:Key="WelcomeLabel" TargetType="Label">
+				<Setter Property="FontSize" Value="28"/>
+				<Setter Property="FontAttributes" Value="Bold"/>
+				<Setter Property="TextColor" Value="White"/>
+				<Setter Property="Margin" Value="30,40,30,20"/>
+				<Setter Property="VerticalOptions" Value="Center"/>
+			</Style>
+
+			<Style x:Key="ActionButton" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="White"/>
+				<Setter Property="TextColor" Value="{DynamicResource ButtonTextColor}"/>
+				<Setter Property="CornerRadius" Value="10"/>
+				<Setter Property="HeightRequest" Value="60"/>
+				<Setter Property="FontSize" Value="18"/>
+				<Setter Property="FontAttributes" Value="Bold"/>
+				<Setter Property="Margin" Value="30,15"/>
+			</Style>
+
+			<Style x:Key="LogoutButton" TargetType="Button">
+				<Setter Property="BackgroundColor" Value="{DynamicResource LogoutButtonColor}"/>
+				<Setter Property="TextColor" Value="White"/>
+				<Setter Property="CornerRadius" Value="10"/>
+				<Setter Property="HeightRequest" Value="40"/>
+				<Setter Property="FontSize" Value="14"/>
+				<Setter Property="FontAttributes" Value="Bold"/>
+				<Setter Property="Padding" Value="20,0"/>
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+	<Grid RowDefinitions="Auto,*,Auto" RowSpacing="0">
+		<!-- Header with welcome and logout -->
+		<Grid Grid.Row="0" ColumnDefinitions="*,Auto" Padding="30,40,30,20">
+			<Label x:Name="WelcomeLabel"
+                   Style="{StaticResource WelcomeLabel}"
+                   Grid.Column="0"/>
+
+			<Button Text="Logout"
+                    Style="{StaticResource LogoutButton}"
+                    Grid.Column="1"
+                    VerticalOptions="Center"
+                    Clicked="OnLogoutClicked"/>
+		</Grid>
+
+		<!-- Main Content Area -->
+		<VerticalStackLayout Grid.Row="1"
+                            VerticalOptions="Center"
+                            Spacing="30">
+			<Button Text="Submit a New Issue"
+                    Style="{StaticResource ActionButton}"
+                    Clicked="OnSubmitIssueClicked"/>
+
+			<Button Text="View My Issues"
+                    Style="{StaticResource ActionButton}"
+                    Clicked="OnViewIssuesClicked"/>
+		</VerticalStackLayout>
+
+		<!-- Footer -->
+		<Label Grid.Row="2"
+               Text="AIssueReporter v1.0"
+               TextColor="White"
+               Opacity="0.6"
+               FontSize="12"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+	</Grid>
+</ContentPage>

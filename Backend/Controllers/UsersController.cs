@@ -38,7 +38,7 @@ namespace Backend.Controllers
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return Ok(new { Message = "User registered successfully!" });
+            return Ok(new { Message = request.FirstName + " " + request.LastName });
         }
 
         [HttpPost("login")]
@@ -50,7 +50,7 @@ namespace Backend.Controllers
                 return Unauthorized("Invalid email or password!");
             }
 
-            return Ok(new {Message = "Login successful!"});
+            return Ok(new {Message = user.FirstName + " " + user.LastName});
         }
     }
 }

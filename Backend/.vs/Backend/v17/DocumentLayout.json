@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\issuerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\issuerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|solutionrelative:controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7930C694-9D77-4459-B729-5E67407C6247}|Backend.csproj|c:\\users\\ionut\\desktop\\aissuereporter\\backend\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,14 +84,14 @@
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T10:57:43.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IssueRequest.cs",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\IssueRequest.cs",
               "RelativeDocumentMoniker": "Models\\IssueRequest.cs",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SignUpRequest.cs",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\SignUpRequest.cs",
               "RelativeDocumentMoniker": "Models\\SignUpRequest.cs",
@@ -112,18 +112,17 @@
               "RelativeToolTip": "Models\\SignUpRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:57:05.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T10:57:05.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ImageController.cs",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\ImageController.cs",
               "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
               "ToolTip": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Controllers\\ImageController.cs",
               "RelativeToolTip": "Controllers\\ImageController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T19:45:03.068Z",
               "EditorCaption": ""
@@ -138,8 +137,7 @@
               "RelativeToolTip": "Models\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:56:34.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T10:56:34.092Z"
             },
             {
               "$type": "Document",
@@ -151,12 +149,11 @@
               "RelativeToolTip": "Models\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:16:26.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T10:16:26.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Issues.cs",
               "DocumentMoniker": "C:\\Users\\ionut\\Desktop\\AIssueReporter\\Backend\\Models\\Issues.cs",
               "RelativeDocumentMoniker": "Models\\Issues.cs",
@@ -164,8 +161,7 @@
               "RelativeToolTip": "Models\\Issues.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:18:54.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T10:18:54.279Z"
             },
             {
               "$type": "Document",
@@ -177,8 +173,7 @@
               "RelativeToolTip": "Models\\PredictionRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:03:46.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:03:46.494Z"
             },
             {
               "$type": "Document",
@@ -190,8 +185,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:40:58.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T19:40:58.204Z"
             },
             {
               "$type": "Document",
@@ -203,8 +197,7 @@
               "RelativeToolTip": "Backend.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-22T19:45:09.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T19:45:09.461Z"
             },
             {
               "$type": "Document",
@@ -216,8 +209,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:21:07.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T10:21:07.402Z"
             },
             {
               "$type": "Document",
@@ -229,8 +221,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-11T10:45:53.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T10:45:53.384Z"
             },
             {
               "$type": "Document",
@@ -242,8 +233,7 @@
               "RelativeToolTip": "Models\\PredictionResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:45:58.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T19:45:58.295Z"
             },
             {
               "$type": "Document",
@@ -255,8 +245,7 @@
               "RelativeToolTip": "Services\\PredictionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:46:27.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T19:46:27.67Z"
             }
           ]
         }

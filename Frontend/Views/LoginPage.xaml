@@ -2,19 +2,155 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Frontend.Views.LoginPage"
-             Title="Login">
+             Title="AIssueReporter"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <VerticalStackLayout Padding="30" Spacing="20">
-        <Label Text="Login" FontSize="24" HorizontalOptions="Center" />
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#512BD4</Color>
+            <Color x:Key="SecondaryColor">#6C5CE7</Color>
+            <Color x:Key="PageBackgroundColor">#F8F9FA</Color>
+            <Color x:Key="EntryBackgroundColor">#FFFFFF</Color>
+            <Color x:Key="EntryBorderColor">#E0E0E0</Color>
+            <Color x:Key="PlaceholderColor">#9E9E9E</Color>
+            <Color x:Key="ButtonTextColor">#FFFFFF</Color>
 
-		<Entry x:Name="Email" Placeholder="Email" />
-		<Entry x:Name="Password" Placeholder="Password" IsPassword="True" />
+            <Style x:Key="TitleLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="28"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="0,0,0,30"/>
+            </Style>
 
-		<Button Text="Login"
-                FontSize="20"
-                BackgroundColor="#007AFF"
-                TextColor="White"
-                CornerRadius="10"
-                Clicked="OnLoginClicked"/>
-    </VerticalStackLayout>
+            <Style x:Key="FormEntry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="{DynamicResource EntryBackgroundColor}"/>
+                <Setter Property="PlaceholderColor" Value="{DynamicResource PlaceholderColor}"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="Margin" Value="0,0,0,15"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="ClearButtonVisibility" Value="WhileEditing"/>
+            </Style>
+
+            <Style x:Key="PrimaryButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource ButtonTextColor}"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,20,0,0"/>
+            </Style>
+
+            <Style x:Key="SecondaryButton" TargetType="Button">
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="Margin" Value="0,15,0,0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid VerticalOptions="Center" RowSpacing="0" Padding="30,40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+        
+                <RowDefinition Height="Auto"/>
+             
+                <RowDefinition Height="Auto"/>
+             
+                <RowDefinition Height="Auto"/>
+              
+                <RowDefinition Height="Auto"/>
+             
+            </Grid.RowDefinitions>
+
+            
+            <Label Grid.Row="0" 
+                   Text="Login" 
+                   Style="{StaticResource TitleLabel}"/>
+
+           
+            <Frame Grid.Row="1" 
+                   CornerRadius="10" 
+                   BorderColor="{DynamicResource EntryBorderColor}"
+                   BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                   Padding="15,5"
+                   Margin="0,0,0,10"
+                   HasShadow="False">
+                <VerticalStackLayout Spacing="2">
+                    <Label Text="Email" 
+                           TextColor="{DynamicResource PlaceholderColor}"
+                           FontSize="12"/>
+                    <Entry x:Name="Email" 
+                           Placeholder="your@email.com"
+                           Keyboard="Email"
+                           Style="{StaticResource FormEntry}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            
+            <Frame Grid.Row="2" 
+                   CornerRadius="10" 
+                   BorderColor="{DynamicResource EntryBorderColor}"
+                   BackgroundColor="{DynamicResource EntryBackgroundColor}"
+                   Padding="15,5"
+                   HasShadow="False">
+                <VerticalStackLayout Spacing="2">
+                    <Label Text="Password" 
+                           TextColor="{DynamicResource PlaceholderColor}"
+                           FontSize="12"/>
+                    <Entry x:Name="Password" 
+                           Placeholder="••••••••"
+                           IsPassword="True"
+                           Style="{StaticResource FormEntry}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            
+            <Button Grid.Row="3"
+                    Text="Forgot password?"
+                    HorizontalOptions="End"
+                    Style="{StaticResource SecondaryButton}"/>
+
+            
+            <Button Grid.Row="4"
+            Text="LOGIN"
+            Style="{StaticResource PrimaryButton}"
+            Clicked="OnLoginClicked"/>
+
+           
+            <Grid Grid.Row="5" 
+      Margin="0,20,0,0"
+      HorizontalOptions="Center"
+      ColumnSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+               
+                <Label Grid.Column="0"
+           Text="Don't have an account?"
+           TextColor="#616161"
+           FontSize="14"
+           VerticalTextAlignment="Center"
+           VerticalOptions="Center"
+           Margin="0,2,0,0"/>
+
+                
+                <Button Grid.Column="1"
+            Text="Sign up"
+            Style="{StaticResource SecondaryButton}"
+            VerticalOptions="Center"
+            Padding="6,0"
+            HeightRequest="20"
+            Margin="0,1.5,0,0"
+            Clicked="OnSignUpClicked"/>
+            </Grid>
+        </Grid>
+    </ScrollView>
 </ContentPage>
